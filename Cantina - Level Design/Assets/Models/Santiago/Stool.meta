@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 6996a4197c5cce549a5dc5ae79769d8f
+=======
+guid: 462c0e662d5b48c42b01ffb31f7aa816
+>>>>>>> origin/pool-table-and-cues
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

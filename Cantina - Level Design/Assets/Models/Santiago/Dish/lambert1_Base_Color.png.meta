@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 8be392795a8a78b449ccd8e7e84633ca
+=======
+guid: c506df2a0ddd9a8429624550686fff59
+>>>>>>> origin/pool-table-and-cues
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

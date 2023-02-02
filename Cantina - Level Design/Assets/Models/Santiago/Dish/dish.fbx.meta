@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 14c7e5b318e52374dbc37d92d255a1a3
+=======
+guid: 19f80dbf5af8c7b42b182fb32b385649
+>>>>>>> origin/pool-table-and-cues
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
