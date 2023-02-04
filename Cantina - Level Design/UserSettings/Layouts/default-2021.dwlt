@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 96
+  controlID: 78
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 106
+  controlID: 79
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 107
+  controlID: 80
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,23 +317,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Models/Santiago/Door
+    - Assets/Prefabs/Santiago
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Models/Santiago/Door
+  - Assets/Prefabs/Santiago
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Santiago\Documents\Master\Assets Assigment\cantina-unity-design\Cantina
     - Level Design
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 148.6}
-    m_SelectedIDs: 8c970000
-    m_LastClickedID: 38796
-    m_ExpandedIDs: 00000000629700006897000086970000889700008a9700008c9700009097000000ca9a3b
+    scrollPos: {x: 0, y: 72.600006}
+    m_SelectedIDs: 2c640000
+    m_LastClickedID: 25644
+    m_ExpandedIDs: 00000000186400001a6400003864000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -361,7 +361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000186400001a640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -488,10 +488,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ac980000
-      m_LastClickedID: 0
-      m_ExpandedIDs: c0c6ffff
+      scrollPos: {x: 0, y: 60}
+      m_SelectedIDs: ccbbffff
+      m_LastClickedID: -17460
+      m_ExpandedIDs: 36fbfffff85d00004c5e0000c45e0000285f0000006000001c60000042600000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -773,9 +773,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 22.465555, y: 2.2017984, z: 7.5425982}
+    m_Target: {x: 12.074581, y: 1.3406947, z: -5.9407105}
     speed: 2
-    m_Value: {x: 22.465555, y: 2.2017984, z: 7.5425982}
+    m_Value: {x: 12.074581, y: 1.3406947, z: -5.9407105}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -798,10 +798,10 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     yGrid:
       m_Fade:
         m_Target: 1
@@ -820,15 +820,15 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     m_ShowGrid: 1
     m_GridAxis: 1
-    m_gridOpacity: 0.5
+    m_gridOpacity: 0
   m_Rotation:
-    m_Target: {x: -0.0022970058, y: -0.975887, z: 0.21874309, w: -0.010464416}
+    m_Target: {x: 0.10063735, y: 0.020441212, z: -0.0016774529, w: 0.9948971}
     speed: 2
-    m_Value: {x: -0.0026246994, y: -0.9757147, z: 0.21870454, w: -0.011926333}
+    m_Value: {x: 0.10062119, y: 0.01894535, z: -0.0015262136, w: 0.9947432}
   m_Size:
-    m_Target: 1.9986658
+    m_Target: 3.4535587
     speed: 2
-    m_Value: 1.9986658
+    m_Value: 3.4535587
   m_Ortho:
     m_Target: 0
     speed: 2
