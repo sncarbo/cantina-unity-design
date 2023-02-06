@@ -15,7 +15,7 @@ D:/master/cantina-unity-design/cantina-unity-design/Cantina - Level Design
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-57042
+58375
 Successfully changed project path to: D:/master/cantina-unity-design/cantina-unity-design/Cantina - Level Design
 D:/master/cantina-unity-design/cantina-unity-design/Cantina - Level Design
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/master/cantina-unity-design/cantina-unity-design/Cantina - Level Design
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2268] Host "[IP] 192.168.1.39 [Port] 0 [Flags] 2 [Guid] 3184423315 [EditorId] 3184423315 [Version] 1048832 [Id] WindowsEditor(7,Jesus-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [29088] Host "[IP] 192.168.1.39 [Port] 0 [Flags] 2 [Guid] 1723745210 [EditorId] 1723745210 [Version] 1048832 [Id] WindowsEditor(7,Jesus-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2268] Host "[IP] 192.168.1.39 [Port] 0 [Flags] 2 [Guid] 3184423315 [EditorId] 3184423315 [Version] 1048832 [Id] WindowsEditor(7,Jesus-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29088] Host "[IP] 192.168.1.39 [Port] 0 [Flags] 2 [Guid] 1723745210 [EditorId] 1723745210 [Version] 1048832 [Id] WindowsEditor(7,Jesus-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 44.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 47.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,90 +67,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002388 seconds.
+Registered in 0.002785 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 43.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.350 seconds
+- Completed reload, in  0.389 seconds
 Domain Reload Profiling:
-	ReloadAssembly (351ms)
-		BeginReloadAssembly (39ms)
+	ReloadAssembly (389ms)
+		BeginReloadAssembly (44ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (252ms)
-			LoadAssemblies (37ms)
+		EndReloadAssembly (280ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (57ms)
+			SetupTypeCache (63ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (14ms)
-			SetupLoadedEditorAssemblies (152ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (171ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (43ms)
+				RefreshPlugins (50ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (77ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002279 seconds.
+Registered in 0.002045 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.584 seconds
+- Completed reload, in  0.597 seconds
 Domain Reload Profiling:
-	ReloadAssembly (584ms)
+	ReloadAssembly (598ms)
 		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (11ms)
-		EndReloadAssembly (458ms)
-			LoadAssemblies (48ms)
+		EndReloadAssembly (469ms)
+			LoadAssemblies (44ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (152ms)
+			SetupTypeCache (154ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (204ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (208ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (138ms)
+				BeforeProcessingInitializeOnLoad (45ms)
+				ProcessInitializeOnLoadAttributes (142ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3745 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (97.7 KB). Loaded Objects now: 4206.
-Memory consumption went from 135.0 MB to 134.9 MB.
-Total: 1.993200 ms (FindLiveObjects: 0.168500 ms CreateObjectMapping: 0.088000 ms MarkObjects: 1.651100 ms  DeleteObjects: 0.085000 ms)
+Unloading 26 unused Assets / (96.5 KB). Loaded Objects now: 4206.
+Memory consumption went from 134.9 MB to 134.8 MB.
+Total: 2.041100 ms (FindLiveObjects: 0.146500 ms CreateObjectMapping: 0.059100 ms MarkObjects: 1.764900 ms  DeleteObjects: 0.070000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,61 +165,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 10219.768328 seconds.
-  path: Assets/Models/Jesus/Shake/coctelera.fbx
-  artifactKey: Guid(0c20cd3163d72774d8de595eb26b1d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Shake/coctelera.fbx using Guid(0c20cd3163d72774d8de595eb26b1d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2410586f42432201542f61ca3de42b1') in 0.094668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.107157 seconds.
-  path: Assets/Models/Jesus/Shake/coctelera_Base_color.png
-  artifactKey: Guid(d033a80eceeb6394b96dc9f63c9b7523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Shake/coctelera_Base_color.png using Guid(d033a80eceeb6394b96dc9f63c9b7523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1c0bc511a8404965716bfe5cbdde59') in 0.041989 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.934634 seconds.
-  path: Assets/Models/Jesus/Shake/coctelera_Height.png
-  artifactKey: Guid(ac86e6364a17abd4fa238976215ed21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Shake/coctelera_Height.png using Guid(ac86e6364a17abd4fa238976215ed21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196967ec62c23207e6b4005ff3ede169') in 0.007508 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.654741 seconds.
-  path: Assets/Models/Jesus/Shake/coctelera_Metallic.png
-  artifactKey: Guid(120bc878cd8ce3c43bceab155e7c6387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Shake/coctelera_Metallic.png using Guid(120bc878cd8ce3c43bceab155e7c6387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0696cea2b89255d878aa9e42578fa3') in 0.006489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.026216 seconds.
-  path: Assets/Models/Jesus/Shake/coctelera_Normal.png
-  artifactKey: Guid(03d788360f09abe4ab9903f4a736024e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Shake/coctelera_Normal.png using Guid(03d788360f09abe4ab9903f4a736024e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47beb1aa703a14ea054013dad917b996') in 0.006908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.434292 seconds.
-  path: Assets/Models/Jesus/Shake/coctelera_Normal_OpenGL.png
-  artifactKey: Guid(e3032dc3d39827c4391a0f9c3e03f10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Shake/coctelera_Normal_OpenGL.png using Guid(e3032dc3d39827c4391a0f9c3e03f10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0ca2b2bd6b3786c06544588288ea98') in 0.009524 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.049410 seconds.
-  path: Assets/Models/Jesus/Shake/coctelera_Roughness.png
-  artifactKey: Guid(54429d24f48eb214fb53586c60077623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Shake/coctelera_Roughness.png using Guid(54429d24f48eb214fb53586c60077623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3198fe7e704ff142630daff2f724a43f') in 0.007006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.832305 seconds.
-  path: Assets/Models/Jesus/Shake/Material
-  artifactKey: Guid(68a60125d16032c4f91d3566e58a5d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Shake/Material using Guid(68a60125d16032c4f91d3566e58a5d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00431d41784fb5b868c4c60f7ba999fc') in 0.002357 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.484178 seconds.
-  path: Assets/Models/Jesus/Shake/coctelera.mat
-  artifactKey: Guid(0359d5f130897b74781330a5ca9e8bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Shake/coctelera.mat using Guid(0359d5f130897b74781330a5ca9e8bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cb80be4d9f1012d292034c4f4df3a0') in 0.016143 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.808595 seconds.
-  path: Assets/Models/Jesus/Shake/coctelera_Normal_OpenGL.png
-  artifactKey: Guid(e3032dc3d39827c4391a0f9c3e03f10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Shake/coctelera_Normal_OpenGL.png using Guid(e3032dc3d39827c4391a0f9c3e03f10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28609c78ca620243f0394e3735b430a0') in 0.012111 seconds 
+  Time since last request: 11835.657200 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light@2x.png
+  artifactKey: Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light@2x.png using Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671ccbb44f8fcf987742c2629b2f1469') in 0.063199 seconds 

@@ -15,7 +15,7 @@ D:/master/cantina-unity-design/cantina-unity-design/Cantina - Level Design
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56879
+57042
 Successfully changed project path to: D:/master/cantina-unity-design/cantina-unity-design/Cantina - Level Design
 D:/master/cantina-unity-design/cantina-unity-design/Cantina - Level Design
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/master/cantina-unity-design/cantina-unity-design/Cantina - Level Design
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4664] Host "[IP] 192.168.1.37 [Port] 0 [Flags] 2 [Guid] 1415071331 [EditorId] 1415071331 [Version] 1048832 [Id] WindowsEditor(7,Jesus-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19556] Host "[IP] 192.168.1.39 [Port] 0 [Flags] 2 [Guid] 452333842 [EditorId] 452333842 [Version] 1048832 [Id] WindowsEditor(7,Jesus-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4664] Host "[IP] 192.168.1.37 [Port] 0 [Flags] 2 [Guid] 1415071331 [EditorId] 1415071331 [Version] 1048832 [Id] WindowsEditor(7,Jesus-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19556] Host "[IP] 192.168.1.39 [Port] 0 [Flags] 2 [Guid] 452333842 [EditorId] 452333842 [Version] 1048832 [Id] WindowsEditor(7,Jesus-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 46.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,76 +67,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002625 seconds.
+Registered in 0.002855 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 46.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 46.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.426 seconds
+- Completed reload, in  0.390 seconds
 Domain Reload Profiling:
-	ReloadAssembly (426ms)
-		BeginReloadAssembly (50ms)
+	ReloadAssembly (390ms)
+		BeginReloadAssembly (40ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (302ms)
-			LoadAssemblies (50ms)
+		EndReloadAssembly (283ms)
+			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (72ms)
+			SetupTypeCache (63ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (176ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (167ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (47ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (91ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002197 seconds.
+Registered in 0.002024 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.704 seconds
+- Completed reload, in  0.604 seconds
 Domain Reload Profiling:
-	ReloadAssembly (704ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (604ms)
+		BeginReloadAssembly (62ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (11ms)
-		EndReloadAssembly (570ms)
-			LoadAssemblies (57ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (476ms)
+			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
+			SetupTypeCache (155ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (229ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (213ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (156ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -144,13 +144,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3745 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (103.3 KB). Loaded Objects now: 4205.
-Memory consumption went from 134.9 MB to 134.8 MB.
-Total: 2.048700 ms (FindLiveObjects: 0.158600 ms CreateObjectMapping: 0.072300 ms MarkObjects: 1.750000 ms  DeleteObjects: 0.067200 ms)
+Unloading 26 unused Assets / (111.2 KB). Loaded Objects now: 4204.
+Memory consumption went from 134.7 MB to 134.6 MB.
+Total: 1.939700 ms (FindLiveObjects: 0.154800 ms CreateObjectMapping: 0.072400 ms MarkObjects: 1.641000 ms  DeleteObjects: 0.070700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -165,148 +165,82 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 47663.702845 seconds.
-  path: Assets/map.png
-  artifactKey: Guid(777c02eb621caa64394dc35cdd93ceb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/map.png using Guid(777c02eb621caa64394dc35cdd93ceb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19a38c1df7f7020e4ef39c368c2d3fd9') in 0.050166 seconds 
+  Time since last request: 4279.603273 seconds.
+  path: Assets/Models/Jesus/Table pool/Material/wood.mat
+  artifactKey: Guid(bb2b3b6b448d1f546933c9936538c249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Table pool/Material/wood.mat using Guid(bb2b3b6b448d1f546933c9936538c249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45ed15de6e98a6a52f499423e370265') in 0.140162 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/NPC Escalated.prefab
-  artifactKey: Guid(7801b0fb96a32624486e01d6d3e9fede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NPC Escalated.prefab using Guid(7801b0fb96a32624486e01d6d3e9fede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3237231cfa3d08f34a967605b68a0b36') in 0.104599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 127.108991 seconds.
-  path: Assets/Models/Eric/table_DefaultMaterial_AlbedoTransparency.png
-  artifactKey: Guid(fea25614c7b753e49a4efa36e17269e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Eric/table_DefaultMaterial_AlbedoTransparency.png using Guid(fea25614c7b753e49a4efa36e17269e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398949cf2b579065b577cf6baafa2f88') in 0.005974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Models/Eric/table_DefaultMaterial_MetallicSmoothness.png
-  artifactKey: Guid(b8ff4df5b7791414bb26a7536d8bb350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Eric/table_DefaultMaterial_MetallicSmoothness.png using Guid(b8ff4df5b7791414bb26a7536d8bb350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fec4a85feed2ff6348a06bf84632e7') in 0.009796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 182.113880 seconds.
+  Time since last request: 146.898186 seconds.
   path: Assets/Models/Jesus/Table pool/green_cloth_Height.png
   artifactKey: Guid(61a001d0d5f7a434e921a1b48af407f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Table pool/green_cloth_Height.png using Guid(61a001d0d5f7a434e921a1b48af407f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da99cbf808da6a905b36a7240acc98de') in 0.009487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003813 seconds.
-  path: Assets/Models/Jesus/Table pool/green_cloth_Normal.png
-  artifactKey: Guid(fc402cc3b423b894ba82d22200ce1b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Table pool/green_cloth_Normal.png using Guid(fc402cc3b423b894ba82d22200ce1b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5db50ef1ff839a1416ae98bdf2607b6') in 0.008815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Models/Jesus/Table pool/wood_Normal.png
-  artifactKey: Guid(8c9e17252e57711459a21471836d0531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Table pool/wood_Normal.png using Guid(8c9e17252e57711459a21471836d0531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd270a82f5c2f3a09ca454b6b98ba3f') in 0.008470 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Models/Jesus/Table pool/wood_Base_color.png
-  artifactKey: Guid(f355917ca38418e479e69fc016ef20a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Table pool/wood_Base_color.png using Guid(f355917ca38418e479e69fc016ef20a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49acdac5635dcd0171570a2274ea30f5') in 0.009002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Models/Jesus/Table pool/green_cloth_Roughness.png
-  artifactKey: Guid(5df57f86fd0d4f543b282ea0060e20d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Table pool/green_cloth_Roughness.png using Guid(5df57f86fd0d4f543b282ea0060e20d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94f0769c9c0abc1236dc8ebd1b3cc54') in 0.008122 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Models/Jesus/Table pool/green_cloth_Metallic.png
-  artifactKey: Guid(72516cc39d94f394ebaf5f025183f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Table pool/green_cloth_Metallic.png using Guid(72516cc39d94f394ebaf5f025183f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e30a065a1bc9f27efa151e77dbb4005') in 0.007765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Models/Jesus/Table pool/wood_Metallic.png
-  artifactKey: Guid(564c0af2421d3e24889d1993f1ae4a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Table pool/wood_Metallic.png using Guid(564c0af2421d3e24889d1993f1ae4a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e7e2f0b7402f061e5a9b92b5468f5c') in 0.006343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Models/Jesus/Table pool/metal_Normal.png
-  artifactKey: Guid(d373830e99d41d84aa05c90db66feac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Table pool/metal_Normal.png using Guid(d373830e99d41d84aa05c90db66feac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df232ef130c6a042d480814d257fe958') in 0.008019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Models/Jesus/Table pool/wood_Height.png
-  artifactKey: Guid(f8a5ff147cce3b043a5b451b6533d35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Table pool/wood_Height.png using Guid(f8a5ff147cce3b043a5b451b6533d35f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05360883dde3a98ae77560beb4bdc51') in 0.007943 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 45.068735 seconds.
-  path: Assets/Models/Jesus/Cues/bottom_Metallic.png
-  artifactKey: Guid(d34c5e94f6b58ed49a5dc0f864701381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Cues/bottom_Metallic.png using Guid(d34c5e94f6b58ed49a5dc0f864701381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a020d891821d364e56aae18dcc270f7d') in 0.011983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Models/Jesus/Cues/butt_Roughness.png
-  artifactKey: Guid(990e9efc6af63e649ade0c8964de47ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Cues/butt_Roughness.png using Guid(990e9efc6af63e649ade0c8964de47ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adae4962f6a3fb8c2b0ffd5ad9f21824') in 0.019096 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Models/Jesus/Cues/shaft_Base_color.png
-  artifactKey: Guid(a8bfb3d7d904729489e133f487ce34a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Cues/shaft_Base_color.png using Guid(a8bfb3d7d904729489e133f487ce34a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '385ed6fdbcbb12b09bed4b34c78be8d5') in 0.021702 seconds 
+Start importing Assets/Models/Jesus/Table pool/green_cloth_Height.png using Guid(61a001d0d5f7a434e921a1b48af407f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20654785f4d3fd5e9be7364eec777d65') in 0.032067 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Models/Jesus/Cues/helmet_Normal_OpenGL.png
-  artifactKey: Guid(aa171a25f5ce9964d86a4ec5170dd442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Cues/helmet_Normal_OpenGL.png using Guid(aa171a25f5ce9964d86a4ec5170dd442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdbe6fd6d90bae048b54e089efb4f4d') in 0.037697 seconds 
+  path: Assets/Models/Jesus/Table pool/green_cloth_Normal_OpenGL.png
+  artifactKey: Guid(a519a67469a61504a8249099859adbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Table pool/green_cloth_Normal_OpenGL.png using Guid(a519a67469a61504a8249099859adbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8a86408db407db8cc69cb0087430a7') in 0.013317 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Models/Jesus/Cues/bottom_Roughness.png
-  artifactKey: Guid(1d9bfe7878cc3dd4da9ea905d37a40e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Cues/bottom_Roughness.png using Guid(1d9bfe7878cc3dd4da9ea905d37a40e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555e0376391f1cf71832fee0b0702965') in 0.029217 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Jesus/Table pool/wood_Base_color.png
+  artifactKey: Guid(f355917ca38418e479e69fc016ef20a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Table pool/wood_Base_color.png using Guid(f355917ca38418e479e69fc016ef20a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9579c131d01820d078f8a11746679a74') in 0.010166 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Models/Jesus/Cues/yellow_Metallic.png
-  artifactKey: Guid(5270d3e5903184d4cb6a465cf2318ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Cues/yellow_Metallic.png using Guid(5270d3e5903184d4cb6a465cf2318ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad97fbb33177fa21fdaaa5dd3b0b0ea') in 0.044190 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Models/Jesus/Cues/mid_Normal_OpenGL.png
-  artifactKey: Guid(c1962c95ebe418949a074cb52fafa6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Cues/mid_Normal_OpenGL.png using Guid(c1962c95ebe418949a074cb52fafa6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a776057fd239f66957e803d1e16264f') in 0.028731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Models/Jesus/Cues/butt_Height.png
-  artifactKey: Guid(31a164988b1e27f44bbbac907a60bf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Cues/butt_Height.png using Guid(31a164988b1e27f44bbbac907a60bf3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046d5e4372b98676e495f99a4e8bfefa') in 0.029308 seconds 
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Jesus/Table pool/green_cloth_Normal.png
+  artifactKey: Guid(fc402cc3b423b894ba82d22200ce1b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Table pool/green_cloth_Normal.png using Guid(fc402cc3b423b894ba82d22200ce1b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd0414fe9e0c5776faec8c183686517') in 0.007136 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/Models/Jesus/Cues/helmet_Roughness.png
-  artifactKey: Guid(2572b9d0ef8f74e48b31b0861989ea6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Cues/helmet_Roughness.png using Guid(2572b9d0ef8f74e48b31b0861989ea6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa7f467a25216983423c7ecb42ef2fb') in 0.010842 seconds 
+  path: Assets/Models/Jesus/Table pool/metal_Base_color.png
+  artifactKey: Guid(17dba100944218b489df2db69ab71a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Table pool/metal_Base_color.png using Guid(17dba100944218b489df2db69ab71a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52ea171b766b6caa8846dbe8fc3ddc3') in 0.007020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Jesus/Table pool/wood_Roughness.png
+  artifactKey: Guid(ff3f8a93b66e05249aceb5f5e20aa68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Table pool/wood_Roughness.png using Guid(ff3f8a93b66e05249aceb5f5e20aa68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c87dfc527a5a7744acb1b84da463f09') in 0.007491 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000012 seconds.
-  path: Assets/Models/Jesus/Cues/helmet_Metallic.png
-  artifactKey: Guid(9e35094c664a5254ab4ee8da08be9840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Cues/helmet_Metallic.png using Guid(9e35094c664a5254ab4ee8da08be9840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef71a9bafe79a8ee639746536fd6bff') in 0.025899 seconds 
+  path: Assets/Models/Jesus/Table pool/table-pool.fbx
+  artifactKey: Guid(f1b17a58942985e418ea043abb136ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Table pool/table-pool.fbx using Guid(f1b17a58942985e418ea043abb136ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc2f31c96781c18059100e4831b7c81') in 0.209305 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Models/Jesus/Cues/butt_Base_color.png
-  artifactKey: Guid(2e1cfd17d16036548976b4b8d7cca61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Jesus/Cues/butt_Base_color.png using Guid(2e1cfd17d16036548976b4b8d7cca61c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32e671647008f868e1881ba92692b49') in 0.008639 seconds 
+  Time since last request: 31.967150 seconds.
+  path: Assets/Models/Jesus/Pipeline/base_Metallic.png
+  artifactKey: Guid(48913053c410a1047b636a5357daffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Pipeline/base_Metallic.png using Guid(48913053c410a1047b636a5357daffce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af012721d98c8f562723b1fc5154f96') in 0.010926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Jesus/Pipeline/botton_Base_color.png
+  artifactKey: Guid(a6715b37369e07840a6186f1b6933d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Pipeline/botton_Base_color.png using Guid(a6715b37369e07840a6186f1b6933d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e54c261a294e179e1038c1f7b2c50c') in 0.025172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/Jesus/Pipeline/base_Normal_OpenGL.png
+  artifactKey: Guid(ad0edd21ed4daa245a5afdbe7f14006a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Pipeline/base_Normal_OpenGL.png using Guid(ad0edd21ed4daa245a5afdbe7f14006a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4ca48018cf428b5b9c6a5d4bb9dfe5') in 0.006276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Models/Jesus/Pipeline/botton_Roughness.png
+  artifactKey: Guid(11cad2df44846d244909557791199dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Pipeline/botton_Roughness.png using Guid(11cad2df44846d244909557791199dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece020866a11120dbb9e6cfe6e67da98') in 0.007877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Jesus/Pipeline/pipeline_Base_color.png
+  artifactKey: Guid(9e5b4a48eff26b94ba029b0afba48aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Pipeline/pipeline_Base_color.png using Guid(9e5b4a48eff26b94ba029b0afba48aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5923771d7d7be934a33f57edddcba7') in 0.006464 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
