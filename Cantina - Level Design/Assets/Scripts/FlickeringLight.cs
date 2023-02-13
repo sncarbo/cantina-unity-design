@@ -28,7 +28,7 @@ public class FlickeringLight : MonoBehaviour {
 
 	void Update () {  
 		light.color = originalColor * (EvalWave());
-        mat.SetColor("_EmissionColor", new Color(1.0f,0.07f,1.0f,1.0f) * (EvalWave()));
+        mat.SetColor("_EmissionColor", light.color * (EvalWave()));
 	}
 
 	float EvalWave () { 
