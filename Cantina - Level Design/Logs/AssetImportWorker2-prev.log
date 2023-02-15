@@ -1,0 +1,326 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'es' Physical Memory: 32176 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/soyun/OneDrive/Escritorio/Unity_Level_Design/cantina-unity-design/Cantina - Level Design
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+55157
+Successfully changed project path to: C:/Users/soyun/OneDrive/Escritorio/Unity_Level_Design/cantina-unity-design/Cantina - Level Design
+C:/Users/soyun/OneDrive/Escritorio/Unity_Level_Design/cantina-unity-design/Cantina - Level Design
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 85.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.14f1 (eee1884e7226)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/soyun/OneDrive/Escritorio/Unity_Level_Design/cantina-unity-design/Cantina - Level Design/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Laptop GPU (ID=0x249c)
+    Vendor:   NVIDIA
+    VRAM:     16191 MB
+    Driver:   31.0.15.2824
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002604 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 68.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.523 seconds
+Domain Reload Profiling:
+	ReloadAssembly (524ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (378ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (80ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004905 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\soyun\OneDrive\Escritorio\Unity_Level_Design\cantina-unity-design\Cantina - Level Design\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\soyun\OneDrive\Escritorio\Unity_Level_Design\cantina-unity-design\Cantina - Level Design\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Domain Reload Profiling:
+	ReloadAssembly (896ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (714ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (231ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3871 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 4323.
+Memory consumption went from 146.9 MB to 145.6 MB.
+Total: 3.967000 ms (FindLiveObjects: 0.340600 ms CreateObjectMapping: 0.300500 ms MarkObjects: 2.925800 ms  DeleteObjects: 0.399000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 436956.188562 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/publish-light.png
+  artifactKey: Guid(5b22e8d996934d3498b6e8b2cc8744d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/publish-light.png using Guid(5b22e8d996934d3498b6e8b2cc8744d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f77b66900e744fcf1190c16d3b05f04') in 0.089466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Jesus/Pipeline/pipeline_Base_color.png
+  artifactKey: Guid(8c2a84dfae48cb14db47034fee5ed6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Pipeline/pipeline_Base_color.png using Guid(8c2a84dfae48cb14db47034fee5ed6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6caaa460b8bf7e648ad3ff948e03b2b0') in 0.020991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/revert-asset-dark.png
+  artifactKey: Guid(23933ab6b291bc54ba1b99b5fcb9ec80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/revert-asset-dark.png using Guid(23933ab6b291bc54ba1b99b5fcb9ec80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2513bdbc50fb732119abf8c105b6da1d') in 0.015659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Jesus/Pipeline/pipeline_Metallic.png
+  artifactKey: Guid(51ad942231ca4bd4e928239351e6ed10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Pipeline/pipeline_Metallic.png using Guid(51ad942231ca4bd4e928239351e6ed10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3af4d61da486f67584616fafd57525') in 0.012899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/moved-file-light.png
+  artifactKey: Guid(4616bb1fdd540b8418c6840020e72248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/moved-file-light.png using Guid(4616bb1fdd540b8418c6840020e72248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cb5c1e319a8a7bbb901ef44c959f7f') in 0.022019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/publish-dark.png
+  artifactKey: Guid(fdbd7df1b46f4714fbb0174e505f5a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/publish-dark.png using Guid(fdbd7df1b46f4714fbb0174e505f5a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424f7e143f74aa409b9ea83fe716a67c') in 0.020206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/Cantina/ReflectionProbe-0.exr
+  artifactKey: Guid(ebf3f1bbb3dfe7c498b09f2ea3846dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cantina/ReflectionProbe-0.exr using Guid(ebf3f1bbb3dfe7c498b09f2ea3846dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79df899c4ee214092e3de665656b0cb4') in 0.060434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 169.492233 seconds.
+  path: Assets/Prefabs/Jesus/cues Variant.prefab
+  artifactKey: Guid(cc7f9498256335448a966219bbc20edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Jesus/cues Variant.prefab using Guid(cc7f9498256335448a966219bbc20edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8117b15319982e1ab64987954c81de8') in 0.191647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 509.342291 seconds.
+  path: Assets/Materials/Eric/bar.mat
+  artifactKey: Guid(becb9a46d238539479ffcfd3c94d758f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Eric/bar.mat using Guid(becb9a46d238539479ffcfd3c94d758f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b734fa4d0635dab3f2fa8f848962270e') in 0.029229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 126.800876 seconds.
+  path: Assets/Materials/Jesus/base.mat
+  artifactKey: Guid(c4f61044683f20045b3a42acc54df0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jesus/base.mat using Guid(c4f61044683f20045b3a42acc54df0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a51949b606c9a52065fe72731619932') in 0.017474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/Jesus/pipeline.mat
+  artifactKey: Guid(b7ae9dc43b762e849aabfc1588cadcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jesus/pipeline.mat using Guid(b7ae9dc43b762e849aabfc1588cadcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff16a09c56a442398f1f6807f395259f') in 0.014551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.600547 seconds.
+  path: Assets/Materials/David
+  artifactKey: Guid(68fd66af51d40b1449da3c7228faca77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/David using Guid(68fd66af51d40b1449da3c7228faca77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66c27567f5380a579961bcca1cd86bb') in 0.006051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.460024 seconds.
+  path: Assets/Materials/Jesus
+  artifactKey: Guid(754ad7db9c82bdb4681b6473f52d92ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Jesus using Guid(754ad7db9c82bdb4681b6473f52d92ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdffd9aa2dfe95fe37cf1620783c689') in 0.005020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.940302 seconds.
+  path: Assets/Prefabs/Eric/bar.prefab
+  artifactKey: Guid(ed3fd7596f9f01044b2a181f5f5cdf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Eric/bar.prefab using Guid(ed3fd7596f9f01044b2a181f5f5cdf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e113cc534c6922be42aa2b55ef483bb5') in 0.009533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Prefabs/Eric/Inner_table_bar.prefab
+  artifactKey: Guid(8186fd3663c96214e99c0bfe2c1f115c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Eric/Inner_table_bar.prefab using Guid(8186fd3663c96214e99c0bfe2c1f115c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102740ab4df12efc570e08cee0516258') in 0.019859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Eric/Table.prefab
+  artifactKey: Guid(5fd9c2a459aefc34fb232b8faa88322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Eric/Table.prefab using Guid(5fd9c2a459aefc34fb232b8faa88322e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5fcaf92ffb8329b9ad5c0048e9bff39') in 0.024703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.435152 seconds.
+  path: Assets/Prefabs/Jesus/pipeline.prefab
+  artifactKey: Guid(68db7d7d32edcc042a53070729b3f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Jesus/pipeline.prefab using Guid(68db7d7d32edcc042a53070729b3f212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffba9c0fa8862666dce707f37392f7da') in 0.030561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.237190 seconds.
+  path: Assets/Models/Jesus/Pipeline/base_Base_color.png
+  artifactKey: Guid(52332e4f65ab26e428aabf3392281d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Pipeline/base_Base_color.png using Guid(52332e4f65ab26e428aabf3392281d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4f7ebf3517a41bef82ae9fd1ed4c24') in 0.020598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Jesus/Pipeline/base_Roughness.png
+  artifactKey: Guid(f7ef21f222af1194a8faa7ee695e1037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Pipeline/base_Roughness.png using Guid(f7ef21f222af1194a8faa7ee695e1037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a554d2e03db829869c655fcc3185dcd5') in 0.019739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Jesus/Pipeline/botton_Height.png
+  artifactKey: Guid(1d622f3b2a0d30c419a06400328b5133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Pipeline/botton_Height.png using Guid(1d622f3b2a0d30c419a06400328b5133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0425edd5a36d17e6a50e93cb2ae982a1') in 0.014848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Jesus/Pipeline/botton_Metallic.png
+  artifactKey: Guid(6a08db77cd4f3df45bdbcf379fcfae6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Pipeline/botton_Metallic.png using Guid(6a08db77cd4f3df45bdbcf379fcfae6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9afd5dcc2713e1f0073196902001b3b') in 0.013162 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Jesus/Pipeline/base_Normal.png
+  artifactKey: Guid(cf875ab9dcdd37f44a43ce7b94955fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Pipeline/base_Normal.png using Guid(cf875ab9dcdd37f44a43ce7b94955fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41df69ea0138ebea24ab2e1b4fd2833') in 0.020962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Jesus/Pipeline/botton_Base_color.png
+  artifactKey: Guid(233a7690a3e84c74c81ff5899bd19eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Pipeline/botton_Base_color.png using Guid(233a7690a3e84c74c81ff5899bd19eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23cc1c080bc20282fc7f978957818e61') in 0.012368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Jesus/Pipeline/base_Metallic.png
+  artifactKey: Guid(755a685f5f688fe4985de14924a1e979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Pipeline/base_Metallic.png using Guid(755a685f5f688fe4985de14924a1e979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4baca8f274e7671033648fdc2b95d964') in 0.019504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Jesus/Pipeline/botton_Normal.png
+  artifactKey: Guid(8d2023fca637b1549a56622733f3cbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Pipeline/botton_Normal.png using Guid(8d2023fca637b1549a56622733f3cbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fa289eeb4b2902e3154707f2a82f20') in 0.018727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.962862 seconds.
+  path: Assets/Models/Jesus/Cocktelera/coctelera_Base_color.png
+  artifactKey: Guid(c12f950b6910efa469c7bde0aeaf56a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Cocktelera/coctelera_Base_color.png using Guid(c12f950b6910efa469c7bde0aeaf56a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ece61600552d0e384115f988b2130b') in 0.016521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Jesus/Cocktelera/coctelera_Normal.png
+  artifactKey: Guid(1dff57466149b2f409e692a459e6f306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Jesus/Cocktelera/coctelera_Normal.png using Guid(1dff57466149b2f409e692a459e6f306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc5c73b5d6f03b9d9e51f9765778fb7') in 0.014303 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
