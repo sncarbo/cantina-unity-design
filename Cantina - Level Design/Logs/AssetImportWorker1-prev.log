@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.14f1 (eee1884e7226) revision 15655304'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'es' Physical Memory: 32176 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16063 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 2021.3.14f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.14f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/soyun/OneDrive/Escritorio/Unity_Level_Design/cantina-unity-design/Cantina - Level Design
+C:/Users/Santiago/Documents/Master/Assets Assigment/cantina-unity-design/Cantina - Level Design
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63240
-Successfully changed project path to: C:/Users/soyun/OneDrive/Escritorio/Unity_Level_Design/cantina-unity-design/Cantina - Level Design
-C:/Users/soyun/OneDrive/Escritorio/Unity_Level_Design/cantina-unity-design/Cantina - Level Design
+64808
+Successfully changed project path to: C:/Users/Santiago/Documents/Master/Assets Assigment/cantina-unity-design/Cantina - Level Design
+C:/Users/Santiago/Documents/Master/Assets Assigment/cantina-unity-design/Cantina - Level Design
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,105 +47,106 @@ C:/Users/soyun/OneDrive/Escritorio/Unity_Level_Design/cantina-unity-design/Canti
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 76.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.14f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/soyun/OneDrive/Escritorio/Unity_Level_Design/cantina-unity-design/Cantina - Level Design/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Santiago/Documents/Master/Assets Assigment/cantina-unity-design/Cantina - Level Design/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 Laptop GPU (ID=0x249c)
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
     Vendor:   NVIDIA
-    VRAM:     16191 MB
-    Driver:   31.0.15.2824
+    VRAM:     8033 MB
+    Driver:   31.0.15.2849
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity 2021.3.14f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity 2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity 2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity 2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002979 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003800 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 71.37 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 105.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.612 seconds
+- Completed reload, in  0.740 seconds
 Domain Reload Profiling:
-	ReloadAssembly (613ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (741ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (400ms)
-			LoadAssemblies (94ms)
+		EndReloadAssembly (544ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (82ms)
+			SetupTypeCache (127ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (245ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (313ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (72ms)
+				RefreshPlugins (106ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (125ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005460 seconds.
+Registered in 0.004928 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\soyun\OneDrive\Escritorio\Unity_Level_Design\cantina-unity-design\Cantina - Level Design\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\soyun\OneDrive\Escritorio\Unity_Level_Design\cantina-unity-design\Cantina - Level Design\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.013 seconds
+- Completed reload, in  1.225 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1014ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (1226ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (796ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (958ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (235ms)
+			SetupTypeCache (308ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (390ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (445ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (266ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (294ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3871 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 4323.
-Memory consumption went from 147.0 MB to 145.6 MB.
-Total: 3.163400 ms (FindLiveObjects: 0.293000 ms CreateObjectMapping: 0.109000 ms MarkObjects: 2.463500 ms  DeleteObjects: 0.296900 ms)
+Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 4319.
+Memory consumption went from 146.2 MB to 144.9 MB.
+Total: 6.571200 ms (FindLiveObjects: 0.468400 ms CreateObjectMapping: 0.252000 ms MarkObjects: 5.222400 ms  DeleteObjects: 0.626300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,64 +161,101 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4485.943224 seconds.
-  path: Assets/Prefabs/David/Scenario.prefab
-  artifactKey: Guid(902f5f28538c6a04687dfa19c8b12bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/David/Scenario.prefab using Guid(902f5f28538c6a04687dfa19c8b12bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b9dc9a350d34dd0ac18c8f9310a74b') in 0.113331 seconds 
+  Time since last request: 51654.463099 seconds.
+  path: Assets/map.png
+  artifactKey: Guid(777c02eb621caa64394dc35cdd93ceb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/map.png using Guid(777c02eb621caa64394dc35cdd93ceb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dfa4e949529e0fbc3e5235ca2e1b75') in 0.158539 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004622 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\soyun\OneDrive\Escritorio\Unity_Level_Design\cantina-unity-design\Cantina - Level Design\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\soyun\OneDrive\Escritorio\Unity_Level_Design\cantina-unity-design\Cantina - Level Design\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.830 seconds
-Domain Reload Profiling:
-	ReloadAssembly (830ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (639ms)
-			LoadAssemblies (62ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (192ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (313ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (66ms)
-				ProcessInitializeOnLoadAttributes (207ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3818 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (1.3 MB). Loaded Objects now: 4334.
-Memory consumption went from 146.3 MB to 145.0 MB.
-Total: 3.173700 ms (FindLiveObjects: 0.247200 ms CreateObjectMapping: 0.111400 ms MarkObjects: 2.523500 ms  DeleteObjects: 0.290500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/NPC Escalated.prefab
+  artifactKey: Guid(7801b0fb96a32624486e01d6d3e9fede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NPC Escalated.prefab using Guid(7801b0fb96a32624486e01d6d3e9fede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5e208a3f44634a66f2f2247c19f751') in 0.313659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 158.661203 seconds.
+  path: Assets/Models/Santiago/Round Door/lambert1_Height.png
+  artifactKey: Guid(48f40d671b074004fb09357289b0395f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Santiago/Round Door/lambert1_Height.png using Guid(48f40d671b074004fb09357289b0395f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac384ef6baf2055c5b2935a66a3901ec') in 0.024243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022568 seconds.
+  path: Assets/Models/Santiago/Round Door/lambert1_Metallic_1001.png
+  artifactKey: Guid(d23dbe4bfe263494ab6b467bfe6f1f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Santiago/Round Door/lambert1_Metallic_1001.png using Guid(d23dbe4bfe263494ab6b467bfe6f1f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17350c127f57417b9dc68fdfc8a1197b') in 0.033288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Santiago/Round Door/phong3_Base_Color_1001.png
+  artifactKey: Guid(0054aa1eb5014be4d84a5e8705a3a6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Santiago/Round Door/phong3_Base_Color_1001.png using Guid(0054aa1eb5014be4d84a5e8705a3a6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889b6ce97d1ed3deabbe33ea2f23fad2') in 0.022625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Santiago/Round Door/phong1_Normal_OpenGL_1001.png
+  artifactKey: Guid(76b21989eb284bb45946683a1fd34d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Santiago/Round Door/phong1_Normal_OpenGL_1001.png using Guid(76b21989eb284bb45946683a1fd34d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914dcf70e1225fd25ce2c79c9fff51bf') in 0.016506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Santiago/Round Door/phong2_Normal_1001.png
+  artifactKey: Guid(39bdd2994fa0bbe4cb61a3895659a66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Santiago/Round Door/phong2_Normal_1001.png using Guid(39bdd2994fa0bbe4cb61a3895659a66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54883958dea01d5cde88437fb56c25f') in 0.016576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Models/Santiago/Round Door/lambert1_Roughness.png
+  artifactKey: Guid(d2d987d17fc2e0241bb03a1c1cbc4a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Santiago/Round Door/lambert1_Roughness.png using Guid(d2d987d17fc2e0241bb03a1c1cbc4a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9ae0c43e1d7080213620f3d7110137') in 0.037650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Santiago/Round Door/phong2_Base_Color_1001.png
+  artifactKey: Guid(b94ff91e19004b64a92d3259c2750543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Santiago/Round Door/phong2_Base_Color_1001.png using Guid(b94ff91e19004b64a92d3259c2750543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '115167c80b9a6dd703a6f02f8530e0d7') in 0.014923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Santiago/Round Door/lambert1_Height_1001.png
+  artifactKey: Guid(4b7b0679e2593c840b9ed466569c1129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Santiago/Round Door/lambert1_Height_1001.png using Guid(4b7b0679e2593c840b9ed466569c1129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0100dda79f4b33ef15f5fd14bc20196') in 0.015757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Santiago/Round Door/phong2_Normal_OpenGL_1001.png
+  artifactKey: Guid(f3ce380cb5aec674ab718ce06f2fee89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Santiago/Round Door/phong2_Normal_OpenGL_1001.png using Guid(f3ce380cb5aec674ab718ce06f2fee89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2473b016156f91e297b92b19859804') in 0.019187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/Santiago/Round Door/lambert1_Roughness_1001.png
+  artifactKey: Guid(df7e8da37f9a36d40a34227b5c6de90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Santiago/Round Door/lambert1_Roughness_1001.png using Guid(df7e8da37f9a36d40a34227b5c6de90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e39ac030e4b896c6f312ce8e70b9163b') in 0.020074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Santiago/Round Door/phong3_Metallic_1001.png
+  artifactKey: Guid(8bde38ccfe4719c4780c56cb853b05a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Santiago/Round Door/phong3_Metallic_1001.png using Guid(8bde38ccfe4719c4780c56cb853b05a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac3c25afec47fac82fc1484ad62de53') in 0.012866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Models/Santiago/Round Door/phong2_Roughness_1001.png
+  artifactKey: Guid(97794ed0e6e466745bb23abca1693e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Santiago/Round Door/phong2_Roughness_1001.png using Guid(97794ed0e6e466745bb23abca1693e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f528d16a67bf2c56299444a2796d34') in 0.031489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Santiago/Round Door/phong2_Height_1001.png
+  artifactKey: Guid(bd4c4c03a67956a4488be0f188301122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Santiago/Round Door/phong2_Height_1001.png using Guid(bd4c4c03a67956a4488be0f188301122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69912ed21867913ab49c0ffb937c0f2f') in 0.035094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Models/Santiago/Round Door/phong1_Base_Color_1001.png
+  artifactKey: Guid(99bdb4c037b3c9a46b01543f244c9854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Santiago/Round Door/phong1_Base_Color_1001.png using Guid(99bdb4c037b3c9a46b01543f244c9854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040b35ea99190372a4e7ca39aabf1984') in 0.021054 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
