@@ -9,11 +9,11 @@ C:\Program Files\Unity 2021.3.14f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker2
 -projectPath
 C:/Users/soyun/OneDrive/Escritorio/Unity_Level_Design/cantina-unity-design/Cantina - Level Design
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker2.log
 -srvPort
 65452
 Successfully changed project path to: C:/Users/soyun/OneDrive/Escritorio/Unity_Level_Design/cantina-unity-design/Cantina - Level Design
@@ -47,7 +47,7 @@ C:/Users/soyun/OneDrive/Escritorio/Unity_Level_Design/cantina-unity-design/Canti
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 75.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 98.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -63,75 +63,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002569 seconds.
+Registered in 0.003266 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 73.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.497 seconds
+- Completed reload, in  0.534 seconds
 Domain Reload Profiling:
-	ReloadAssembly (497ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (534ms)
+		BeginReloadAssembly (59ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (365ms)
-			LoadAssemblies (52ms)
+		EndReloadAssembly (391ms)
+			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (72ms)
+			SetupTypeCache (82ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (228ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (243ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
+				RefreshPlugins (75ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004684 seconds.
+Registered in 0.005701 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\soyun\OneDrive\Escritorio\Unity_Level_Design\cantina-unity-design\Cantina - Level Design\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\soyun\OneDrive\Escritorio\Unity_Level_Design\cantina-unity-design\Cantina - Level Design\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.944 seconds
+- Completed reload, in  0.878 seconds
 Domain Reload Profiling:
-	ReloadAssembly (945ms)
-		BeginReloadAssembly (86ms)
+	ReloadAssembly (879ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (760ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (695ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (226ms)
+			SetupTypeCache (199ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (366ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (341ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -140,12 +140,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3872 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 4325.
-Memory consumption went from 148.2 MB to 146.9 MB.
-Total: 2.910000 ms (FindLiveObjects: 0.365700 ms CreateObjectMapping: 0.090600 ms MarkObjects: 2.169000 ms  DeleteObjects: 0.284200 ms)
+Memory consumption went from 148.1 MB to 146.8 MB.
+Total: 2.871500 ms (FindLiveObjects: 0.253400 ms CreateObjectMapping: 0.088500 ms MarkObjects: 2.233800 ms  DeleteObjects: 0.294900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,142 +160,106 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 65506.482879 seconds.
-  path: Assets/Prefabs/David/Lamp.prefab
-  artifactKey: Guid(2b781b192f52caf489649cb9debbc91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/David/Lamp.prefab using Guid(2b781b192f52caf489649cb9debbc91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ad982ae492a069f7007ccf16f5b1ae') in 0.108709 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.849725 seconds.
-  path: Assets/Prefabs/David/Lamp.prefab
-  artifactKey: Guid(2b781b192f52caf489649cb9debbc91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/David/Lamp.prefab using Guid(2b781b192f52caf489649cb9debbc91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98fc57ccde4a8b935bfc87bf54426e5') in 0.014997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.025107 seconds.
-  path: Assets/Prefabs/David/Mission_Light Variant.prefab
-  artifactKey: Guid(b5db6309d79ca3a4bacf4dcd944e3d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/David/Mission_Light Variant.prefab using Guid(b5db6309d79ca3a4bacf4dcd944e3d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834795ddaf0b27596e29fec162b648c3') in 0.014567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 50.944974 seconds.
-  path: Assets/Lightning settings.lighting
-  artifactKey: Guid(1cf5b0ead3b647a45b85cfc2aea50d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lightning settings.lighting using Guid(1cf5b0ead3b647a45b85cfc2aea50d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f221a2b7c48ff85b83627a26a0b336') in 0.006972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.596938 seconds.
-  path: Assets/Scenes/Cantina_Profiles/Cube Profile 1.asset
-  artifactKey: Guid(699ec5658a94b4e42a859beff64bd03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina_Profiles/Cube Profile 1.asset using Guid(699ec5658a94b4e42a859beff64bd03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bbc1851ba09e90f642716df4ab6e41') in 0.014607 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.565570 seconds.
+  Time since last request: 66450.946669 seconds.
   path: Assets/Scenes/Cantina/LightingData.asset
   artifactKey: Guid(c4336c72f55a8d94fb8a2f7aecd9590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/LightingData.asset using Guid(c4336c72f55a8d94fb8a2f7aecd9590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1db883bc39395869c32e5f5448f67701') in 0.006505 seconds 
+Start importing Assets/Scenes/Cantina/LightingData.asset using Guid(c4336c72f55a8d94fb8a2f7aecd9590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af241c92a0735b3dadf6f0b6a38e7d11') in 0.036460 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
+  Time since last request: 0.014215 seconds.
   path: Assets/Scenes/Cantina/Lightmap-1_comp_dir.png
   artifactKey: Guid(83f9853032a692646b2fd00d651911b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-1_comp_dir.png using Guid(83f9853032a692646b2fd00d651911b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c788c40763cda2bde89bf610e15b22f') in 0.033597 seconds 
+Start importing Assets/Scenes/Cantina/Lightmap-1_comp_dir.png using Guid(83f9853032a692646b2fd00d651911b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c75e52a298473b3009a1d01888e7c4') in 0.044197 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
+  Time since last request: 0.000023 seconds.
   path: Assets/Scenes/Cantina/Lightmap-15_comp_light.exr
   artifactKey: Guid(309577cd9c6f4d34f84010a2abee17e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-15_comp_light.exr using Guid(309577cd9c6f4d34f84010a2abee17e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d102cd480e5d7b862e7013b87a0a8d7') in 0.016132 seconds 
+Start importing Assets/Scenes/Cantina/Lightmap-15_comp_light.exr using Guid(309577cd9c6f4d34f84010a2abee17e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa839cfbea0fd0a068fc5758579a9d3a') in 0.029566 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-11_comp_dir.png
-  artifactKey: Guid(65dd153b09ec6544f8a88bf979df4229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-11_comp_dir.png using Guid(65dd153b09ec6544f8a88bf979df4229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6543c8f2f089006fe4717efb33e570') in 0.015568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-0_comp_light.exr
-  artifactKey: Guid(d9833ab520e8d524393967eaffe1fc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-0_comp_light.exr using Guid(d9833ab520e8d524393967eaffe1fc7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda59259b4c184648ea08adfe90e032c') in 0.011906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-13_comp_light.exr
-  artifactKey: Guid(927de01f413448743a50541058791401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-13_comp_light.exr using Guid(927de01f413448743a50541058791401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4754d8cdaef7d68e819ea4d974109002') in 0.010188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-3_comp_light.exr
-  artifactKey: Guid(57f86fbcc491f534ea8f881b345418bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-3_comp_light.exr using Guid(57f86fbcc491f534ea8f881b345418bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2564993555e2ddfeed638884992b0f52') in 0.012015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-8_comp_light.exr
-  artifactKey: Guid(54576ec982d6f6945b10acd353284b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-8_comp_light.exr using Guid(54576ec982d6f6945b10acd353284b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a205c4c6aaab0ab382c992b1ed642a') in 0.011050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-2_comp_light.exr
-  artifactKey: Guid(0a0dcfe86ee3e4f4a8faa292484c1b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-2_comp_light.exr using Guid(0a0dcfe86ee3e4f4a8faa292484c1b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9805ca5d9c6976cf825005c578f731c5') in 0.011069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-10_comp_light.exr
-  artifactKey: Guid(2a16bd501a693a74c9ff69cf2bb1395e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-10_comp_light.exr using Guid(2a16bd501a693a74c9ff69cf2bb1395e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c743b9f8b7a8f4414e2413376269c46') in 0.011742 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/Cantina/Lightmap-3_comp_dir.png
+  artifactKey: Guid(67470aa797abc9348a0ad66265e88297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cantina/Lightmap-3_comp_dir.png using Guid(67470aa797abc9348a0ad66265e88297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eea773c9e279c36df234d0cfe8c0304') in 0.014996 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000032 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-9_comp_dir.png
-  artifactKey: Guid(9790cbfacc8ba214eb09db9c22635c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-9_comp_dir.png using Guid(9790cbfacc8ba214eb09db9c22635c23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1f593598f29240aea0fc7d6e00e627') in 0.010559 seconds 
+  path: Assets/Scenes/Cantina/Lightmap-13_comp_light.exr
+  artifactKey: Guid(927de01f413448743a50541058791401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cantina/Lightmap-13_comp_light.exr using Guid(927de01f413448743a50541058791401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2842c5fa2c3d9ba03e2e8bc9ed2853af') in 0.015768 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/Cantina/Lightmap-3_comp_light.exr
+  artifactKey: Guid(57f86fbcc491f534ea8f881b345418bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cantina/Lightmap-3_comp_light.exr using Guid(57f86fbcc491f534ea8f881b345418bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c71c30c633aa95185ac7cafe7d96ff0') in 0.019150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/Cantina/Lightmap-8_comp_light.exr
+  artifactKey: Guid(54576ec982d6f6945b10acd353284b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cantina/Lightmap-8_comp_light.exr using Guid(54576ec982d6f6945b10acd353284b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce5fa64ecc01ad9680a07fbdfbcfa46') in 0.017124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/Cantina/Lightmap-2_comp_light.exr
+  artifactKey: Guid(0a0dcfe86ee3e4f4a8faa292484c1b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cantina/Lightmap-2_comp_light.exr using Guid(0a0dcfe86ee3e4f4a8faa292484c1b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac21048d0307111546077cda339e8b78') in 0.015001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Scenes/Cantina/Lightmap-8_comp_dir.png
+  artifactKey: Guid(eef299343a5945444aa517b33d057b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cantina/Lightmap-8_comp_dir.png using Guid(eef299343a5945444aa517b33d057b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431a1fb36ed1158f77962aee627e96e7') in 0.016476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/Cantina/Lightmap-12_comp_light.exr
+  artifactKey: Guid(88781be589df308418c910c2746da0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cantina/Lightmap-12_comp_light.exr using Guid(88781be589df308418c910c2746da0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1bce38f0e09f5075b4a85f42ede1b9') in 0.013518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
   path: Assets/Scenes/Cantina/Lightmap-6_comp_dir.png
   artifactKey: Guid(954c8948f9b340f46b4e57edf1155684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-6_comp_dir.png using Guid(954c8948f9b340f46b4e57edf1155684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a3a1377c7a20b2343c1e795115b761') in 0.011740 seconds 
+Start importing Assets/Scenes/Cantina/Lightmap-6_comp_dir.png using Guid(954c8948f9b340f46b4e57edf1155684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9489979bfb9172d1e50f9a5a02d41bb5') in 0.017834 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-1_comp_light.exr
-  artifactKey: Guid(43bdd35b9df26d243a8e4eb4739f0fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-1_comp_light.exr using Guid(43bdd35b9df26d243a8e4eb4739f0fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c605ebb76452c31f3786615399b8e624') in 0.012056 seconds 
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scenes/Cantina/Lightmap-4_comp_light.exr
+  artifactKey: Guid(80043ece8bf96ab4ab422648a7d35cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cantina/Lightmap-4_comp_light.exr using Guid(80043ece8bf96ab4ab422648a7d35cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051c122ff3a9d040e92195e21aa1b970') in 0.013804 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
+  Time since last request: 0.000022 seconds.
   path: Assets/Scenes/Cantina/Lightmap-14_comp_dir.png
   artifactKey: Guid(442c464231c77b245b9d7d3ebdea118d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-14_comp_dir.png using Guid(442c464231c77b245b9d7d3ebdea118d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417562653793acc674794905cf418dae') in 0.011477 seconds 
+Start importing Assets/Scenes/Cantina/Lightmap-14_comp_dir.png using Guid(442c464231c77b245b9d7d3ebdea118d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bed00f66f014964f8c56c43841bbf5c') in 0.010076 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
+  Time since last request: 0.000025 seconds.
   path: Assets/Scenes/Cantina/Lightmap-5_comp_dir.png
   artifactKey: Guid(e7d053d1072c3b049a8c28472b812d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-5_comp_dir.png using Guid(e7d053d1072c3b049a8c28472b812d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e5d3424ab2d5bb50e61c0172fa92f6') in 0.012579 seconds 
+Start importing Assets/Scenes/Cantina/Lightmap-5_comp_dir.png using Guid(e7d053d1072c3b049a8c28472b812d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d3ded9a26364674357b566517e936c') in 0.012927 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
+  Time since last request: 0.000031 seconds.
   path: Assets/Scenes/Cantina/Lightmap-7_comp_dir.png
   artifactKey: Guid(124e05851cbe4974e88b41eb0f2ad72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-7_comp_dir.png using Guid(124e05851cbe4974e88b41eb0f2ad72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0064068f884e2683318f14c5d87ee12f') in 0.012256 seconds 
+Start importing Assets/Scenes/Cantina/Lightmap-7_comp_dir.png using Guid(124e05851cbe4974e88b41eb0f2ad72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0d096d44f30a9ebdd5a6b3ac30f09c') in 0.011473 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
+  Time since last request: 0.000027 seconds.
   path: Assets/Scenes/Cantina/Lightmap-14_comp_light.exr
   artifactKey: Guid(2b08a65ae51494d478264886087b0d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-14_comp_light.exr using Guid(2b08a65ae51494d478264886087b0d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3697a6f1be919528091378cfa87f726') in 0.010830 seconds 
+Start importing Assets/Scenes/Cantina/Lightmap-14_comp_light.exr using Guid(2b08a65ae51494d478264886087b0d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8e3ec4c9af651434a522e0f01b6d32') in 0.010922 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
+  Time since last request: 0.000033 seconds.
   path: Assets/Scenes/Cantina/Lightmap-10_comp_dir.png
   artifactKey: Guid(0de65f36cf02507458444f3f6c36339b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-10_comp_dir.png using Guid(0de65f36cf02507458444f3f6c36339b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862246cb08e77b20ae844e7adc1f8171') in 0.011232 seconds 
+Start importing Assets/Scenes/Cantina/Lightmap-10_comp_dir.png using Guid(0de65f36cf02507458444f3f6c36339b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4380a49b20bd1e28d5c585ec7640737') in 0.010718 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
