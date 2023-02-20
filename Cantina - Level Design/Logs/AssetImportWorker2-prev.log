@@ -15,7 +15,7 @@ C:/Users/soyun/OneDrive/Escritorio/Unity_Level_Design/cantina-unity-design/Canti
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-65452
+55580
 Successfully changed project path to: C:/Users/soyun/OneDrive/Escritorio/Unity_Level_Design/cantina-unity-design/Cantina - Level Design
 C:/Users/soyun/OneDrive/Escritorio/Unity_Level_Design/cantina-unity-design/Cantina - Level Design
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/soyun/OneDrive/Escritorio/Unity_Level_Design/cantina-unity-design/Canti
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 98.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.14f1 (eee1884e7226)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.14f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2021.3.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2021.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2021.3.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2021.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003266 seconds.
+Registered in 0.002682 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 74.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 128.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.534 seconds
+- Completed reload, in  0.584 seconds
 Domain Reload Profiling:
-	ReloadAssembly (534ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (584ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (391ms)
+		EndReloadAssembly (440ms)
 			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (82ms)
+			SetupTypeCache (81ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (243ms)
+			SetupLoadedEditorAssemblies (292ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (75ms)
+				RefreshPlugins (128ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (122ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005701 seconds.
+Registered in 0.005561 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\soyun\OneDrive\Escritorio\Unity_Level_Design\cantina-unity-design\Cantina - Level Design\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\soyun\OneDrive\Escritorio\Unity_Level_Design\cantina-unity-design\Cantina - Level Design\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.878 seconds
+- Completed reload, in  0.930 seconds
 Domain Reload Profiling:
-	ReloadAssembly (879ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (931ms)
+		BeginReloadAssembly (90ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (695ms)
-			LoadAssemblies (71ms)
+		EndReloadAssembly (749ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (199ms)
+			SetupTypeCache (204ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (341ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (389ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (230ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3872 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 4325.
-Memory consumption went from 148.1 MB to 146.8 MB.
-Total: 2.871500 ms (FindLiveObjects: 0.253400 ms CreateObjectMapping: 0.088500 ms MarkObjects: 2.233800 ms  DeleteObjects: 0.294900 ms)
+Unloading 3873 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.3 MB). Loaded Objects now: 4327.
+Memory consumption went from 148.2 MB to 146.9 MB.
+Total: 3.207300 ms (FindLiveObjects: 0.286300 ms CreateObjectMapping: 0.096900 ms MarkObjects: 2.443000 ms  DeleteObjects: 0.380300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,107 +160,175 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 66450.946669 seconds.
-  path: Assets/Scenes/Cantina/LightingData.asset
-  artifactKey: Guid(c4336c72f55a8d94fb8a2f7aecd9590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/LightingData.asset using Guid(c4336c72f55a8d94fb8a2f7aecd9590c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af241c92a0735b3dadf6f0b6a38e7d11') in 0.036460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014215 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-1_comp_dir.png
-  artifactKey: Guid(83f9853032a692646b2fd00d651911b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-1_comp_dir.png using Guid(83f9853032a692646b2fd00d651911b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c75e52a298473b3009a1d01888e7c4') in 0.044197 seconds 
+  Time since last request: 37738.295680 seconds.
+  path: Assets/Materials/Eric/Computer.mat
+  artifactKey: Guid(ce2cf2000241a93488a0c726f5755f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Eric/Computer.mat using Guid(ce2cf2000241a93488a0c726f5755f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f0211c8973ca731526a972b5442202') in 0.207382 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-15_comp_light.exr
-  artifactKey: Guid(309577cd9c6f4d34f84010a2abee17e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-15_comp_light.exr using Guid(309577cd9c6f4d34f84010a2abee17e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa839cfbea0fd0a068fc5758579a9d3a') in 0.029566 seconds 
+  path: Assets/Materials/Eric/Inner Table.mat
+  artifactKey: Guid(086250450e5e8b24f9aed1c2fc3b3a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Eric/Inner Table.mat using Guid(086250450e5e8b24f9aed1c2fc3b3a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669d1a4c8d5f128ad4187b64802ef5f8') in 0.095470 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-3_comp_dir.png
-  artifactKey: Guid(67470aa797abc9348a0ad66265e88297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-3_comp_dir.png using Guid(67470aa797abc9348a0ad66265e88297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eea773c9e279c36df234d0cfe8c0304') in 0.014996 seconds 
+  Time since last request: 0.000156 seconds.
+  path: Assets/Materials/Eric/Table.mat
+  artifactKey: Guid(10914e3e13d3d334cbdb057b38322e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Eric/Table.mat using Guid(10914e3e13d3d334cbdb057b38322e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efbb1d34fcd8e995c74a37316fba9c4') in 0.096595 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-13_comp_light.exr
-  artifactKey: Guid(927de01f413448743a50541058791401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-13_comp_light.exr using Guid(927de01f413448743a50541058791401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2842c5fa2c3d9ba03e2e8bc9ed2853af') in 0.015768 seconds 
+  Time since last request: 0.000113 seconds.
+  path: Assets/Materials/Eric/Bench.mat
+  artifactKey: Guid(7e1ea77936272094c965bfa4040a9277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Eric/Bench.mat using Guid(7e1ea77936272094c965bfa4040a9277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e6ece0b68fc89fa0da56c3ac78cfd5') in 0.014565 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-3_comp_light.exr
-  artifactKey: Guid(57f86fbcc491f534ea8f881b345418bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-3_comp_light.exr using Guid(57f86fbcc491f534ea8f881b345418bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c71c30c633aa95185ac7cafe7d96ff0') in 0.019150 seconds 
+  Time since last request: 9.090254 seconds.
+  path: Assets/Materials/Screen.mat
+  artifactKey: Guid(1a44166033bc3dd4bac5a42e8d715eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Screen.mat using Guid(1a44166033bc3dd4bac5a42e8d715eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240104a225929d843b50061364767655') in 0.012111 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-8_comp_light.exr
-  artifactKey: Guid(54576ec982d6f6945b10acd353284b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-8_comp_light.exr using Guid(54576ec982d6f6945b10acd353284b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce5fa64ecc01ad9680a07fbdfbcfa46') in 0.017124 seconds 
+  Time since last request: 21.684105 seconds.
+  path: Assets/Materials/box-material 1.mat
+  artifactKey: Guid(57b13aba65b68614fa29f7e4aded3543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/box-material 1.mat using Guid(57b13aba65b68614fa29f7e4aded3543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12dc6567a78b7ec61266e44aba1f90e') in 0.012318 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-2_comp_light.exr
-  artifactKey: Guid(0a0dcfe86ee3e4f4a8faa292484c1b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-2_comp_light.exr using Guid(0a0dcfe86ee3e4f4a8faa292484c1b92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac21048d0307111546077cda339e8b78') in 0.015001 seconds 
+  Time since last request: 3.763561 seconds.
+  path: Assets/Materials/Cave.mat
+  artifactKey: Guid(57b13aba65b68614fa29f7e4aded3543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cave.mat using Guid(57b13aba65b68614fa29f7e4aded3543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d36f4a563f93e16d301983c6788039a') in 0.010488 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004743 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\soyun\OneDrive\Escritorio\Unity_Level_Design\cantina-unity-design\Cantina - Level Design\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\soyun\OneDrive\Escritorio\Unity_Level_Design\cantina-unity-design\Cantina - Level Design\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.231 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1231ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1047ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (328ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3820 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.3 MB). Loaded Objects now: 4371.
+Memory consumption went from 147.7 MB to 146.4 MB.
+Total: 3.231500 ms (FindLiveObjects: 0.247000 ms CreateObjectMapping: 0.218700 ms MarkObjects: 2.510100 ms  DeleteObjects: 0.254800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-8_comp_dir.png
-  artifactKey: Guid(eef299343a5945444aa517b33d057b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-8_comp_dir.png using Guid(eef299343a5945444aa517b33d057b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431a1fb36ed1158f77962aee627e96e7') in 0.016476 seconds 
+  Time since last request: 1255.410264 seconds.
+  path: Assets/Materials/Cave.mat
+  artifactKey: Guid(57b13aba65b68614fa29f7e4aded3543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Cave.mat using Guid(57b13aba65b68614fa29f7e4aded3543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc1a5d4ae120aec37f2d4e346b5fb6e') in 0.071706 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004210 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\soyun\OneDrive\Escritorio\Unity_Level_Design\cantina-unity-design\Cantina - Level Design\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\soyun\OneDrive\Escritorio\Unity_Level_Design\cantina-unity-design\Cantina - Level Design\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.855 seconds
+Domain Reload Profiling:
+	ReloadAssembly (856ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (667ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3820 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.3 MB). Loaded Objects now: 4374.
+Memory consumption went from 147.7 MB to 146.4 MB.
+Total: 3.330700 ms (FindLiveObjects: 0.325400 ms CreateObjectMapping: 0.189800 ms MarkObjects: 2.526200 ms  DeleteObjects: 0.287800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-12_comp_light.exr
-  artifactKey: Guid(88781be589df308418c910c2746da0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-12_comp_light.exr using Guid(88781be589df308418c910c2746da0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1bce38f0e09f5075b4a85f42ede1b9') in 0.013518 seconds 
+  Time since last request: 106.168078 seconds.
+  path: Assets/Materials/David/Lamp_Light 1.mat
+  artifactKey: Guid(d4fe50c2d1198cf4c936f2ab8cac7f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/David/Lamp_Light 1.mat using Guid(d4fe50c2d1198cf4c936f2ab8cac7f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0df64324cee443bc481d68577de0866') in 0.080483 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-6_comp_dir.png
-  artifactKey: Guid(954c8948f9b340f46b4e57edf1155684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-6_comp_dir.png using Guid(954c8948f9b340f46b4e57edf1155684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9489979bfb9172d1e50f9a5a02d41bb5') in 0.017834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-4_comp_light.exr
-  artifactKey: Guid(80043ece8bf96ab4ab422648a7d35cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-4_comp_light.exr using Guid(80043ece8bf96ab4ab422648a7d35cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051c122ff3a9d040e92195e21aa1b970') in 0.013804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-14_comp_dir.png
-  artifactKey: Guid(442c464231c77b245b9d7d3ebdea118d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-14_comp_dir.png using Guid(442c464231c77b245b9d7d3ebdea118d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bed00f66f014964f8c56c43841bbf5c') in 0.010076 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-5_comp_dir.png
-  artifactKey: Guid(e7d053d1072c3b049a8c28472b812d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-5_comp_dir.png using Guid(e7d053d1072c3b049a8c28472b812d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d3ded9a26364674357b566517e936c') in 0.012927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-7_comp_dir.png
-  artifactKey: Guid(124e05851cbe4974e88b41eb0f2ad72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-7_comp_dir.png using Guid(124e05851cbe4974e88b41eb0f2ad72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0d096d44f30a9ebdd5a6b3ac30f09c') in 0.011473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-14_comp_light.exr
-  artifactKey: Guid(2b08a65ae51494d478264886087b0d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-14_comp_light.exr using Guid(2b08a65ae51494d478264886087b0d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8e3ec4c9af651434a522e0f01b6d32') in 0.010922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Scenes/Cantina/Lightmap-10_comp_dir.png
-  artifactKey: Guid(0de65f36cf02507458444f3f6c36339b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Cantina/Lightmap-10_comp_dir.png using Guid(0de65f36cf02507458444f3f6c36339b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4380a49b20bd1e28d5c585ec7640737') in 0.010718 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 65.935068 seconds.
+  path: Assets/Materials/David/Lamp_Light 1.mat
+  artifactKey: Guid(d4fe50c2d1198cf4c936f2ab8cac7f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/David/Lamp_Light 1.mat using Guid(d4fe50c2d1198cf4c936f2ab8cac7f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97826445e78e20553e5acd2304b944d') in 0.019540 seconds 

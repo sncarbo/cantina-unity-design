@@ -193,8 +193,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f36e1f513af36d47a57b2ed6a13b29e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveform: 5
+  waveform: 0
   baseStart: 0
   amplitude: 1
   phase: 0.2
-  frequency: 10
+  frequency: 0.6
